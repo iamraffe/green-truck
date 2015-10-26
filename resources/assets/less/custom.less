@@ -11,7 +11,7 @@
 @gray: #777;
 @gray-lighter: #f7f7f7;
 @placeholder-text: #bbbbbb;
-@halloween: #ff7f01;
+@green-truck: #98C328;
 
 // Bootstrap Button Variant
 
@@ -141,6 +141,94 @@ h1, h2, h3, h4, h5, h6 {
   background-color: @gray-darkest;
 }
 
+
+// Restyled Primary Buttons
+
+.btn-primary {
+  .button-variant(white; @brand-primary; @brand-primary);
+  .heading-font;
+  font-weight: 700;
+}
+
+.btn-xl {
+  .button-variant(white; @brand-primary; @brand-primary);
+  .heading-font;
+  font-weight: 700;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 20px 40px;
+}
+
+// Custom Navigation Bar
+
+// .navbar-default {
+//   background-color: @green-truck;
+//   border-top: 2px solid darken(@green-truck, 5%);
+//   .navbar-brand {
+//     color: @brand-primary;
+//     .script-font;
+//         &:hover,
+//         &:focus,
+//         &:active,
+//         &.active {
+//           color: darken(#fff, 10%);
+//         }
+//   }
+//   .navbar-collapse {
+//     border-color: fade(white, 2%);
+//   }
+//   .navbar-toggle {
+//     background-color: @brand-primary;
+//     border-color: @brand-primary;
+//     .icon-bar {
+//       background-color: white;
+//     }
+//     &:hover,
+//     &:focus {
+//       background-color: @brand-primary;
+//     }
+//   }
+//     .nav {
+//       li {
+//         a {
+//           .heading-font;
+//           font-weight: 400;
+//           letter-spacing: 1px;
+//           color: white;
+//           &:hover,
+//           &:focus {
+//             color: darken(#fff, 10%);
+//             outline: none;
+//           }
+//         }
+//       }
+//     }
+//   .navbar-nav>.active>a {
+//     border-radius: 0;
+//     color: white;
+//     background-color: @brand-primary;
+//   }
+//   .navbar-nav>.active>a:hover,
+//   .navbar-nav>.active>a:focus {
+//     color: white;
+//     background-color: darken(@brand-primary, 10%);
+//   }
+// }
+
+@media(min-width:768px) {
+    .navbar-default, .navbar-inverse {
+        // background-color: @green-truck;
+        // border-top: 2px solid darken(@green-truck, 5%);
+      .navbar-brand {
+        padding: 0;
+  
+      }
+      .navbar-nav>.active>a {
+        border-radius: 3px;
+      }
+    }
+}
+
 // Global Section Styles
 
 section {
@@ -172,4 +260,35 @@ section {
 .service-heading {
   margin: 15px 0;
   text-transform: none;
+}
+
+
+// .overlay{
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     background: url('/img/grid.png') rgba(255,255, 255, 0.01);
+//     width: 100%;
+//     height: 100%;
+//     z-index: 1;
+// }
+
+
+/* 
+
+HEADER
+
+*/
+
+#myCarousel{
+  .carousel-caption{
+    bottom: 45%;
+
+    h2{
+      font-family: 'Lato', sans-serif;
+      font-weight: 900;
+      font-size: 3em;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.40);
+    }
+  }
 }

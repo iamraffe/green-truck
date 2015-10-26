@@ -6753,6 +6753,107 @@ h6 {
 .bg-darkest-gray {
   background-color: #222;
 }
+.btn-primary {
+  color: white;
+  background-color: #000;
+  border-color: #000;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: white;
+  background-color: #000000;
+  border-color: #000000;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #000;
+  border-color: #000;
+}
+.btn-primary .badge {
+  color: #000;
+  background-color: white;
+}
+.btn-xl {
+  color: white;
+  background-color: #000;
+  border-color: #000;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 20px 40px;
+}
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+  color: white;
+  background-color: #000000;
+  border-color: #000000;
+}
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+  background-image: none;
+}
+.btn-xl.disabled,
+.btn-xl[disabled],
+fieldset[disabled] .btn-xl,
+.btn-xl.disabled:hover,
+.btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl:hover,
+.btn-xl.disabled:focus,
+.btn-xl[disabled]:focus,
+fieldset[disabled] .btn-xl:focus,
+.btn-xl.disabled:active,
+.btn-xl[disabled]:active,
+fieldset[disabled] .btn-xl:active,
+.btn-xl.disabled.active,
+.btn-xl[disabled].active,
+fieldset[disabled] .btn-xl.active {
+  background-color: #000;
+  border-color: #000;
+}
+.btn-xl .badge {
+  color: #000;
+  background-color: white;
+}
+@media (min-width: 768px) {
+  .navbar-default .navbar-brand,
+  .navbar-inverse .navbar-brand {
+    padding: 0;
+  }
+  .navbar-default .navbar-nav > .active > a,
+  .navbar-inverse .navbar-nav > .active > a {
+    border-radius: 3px;
+  }
+}
 section {
   padding: 100px 0;
 }
@@ -6777,6 +6878,20 @@ section h3.section-subheading {
 .service-heading {
   margin: 15px 0;
   text-transform: none;
+}
+/* 
+
+HEADER
+
+*/
+#myCarousel .carousel-caption {
+  bottom: 45%;
+}
+#myCarousel .carousel-caption h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 3em;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
 }
 
 /*# sourceMappingURL=all.css.map */
