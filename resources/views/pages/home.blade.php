@@ -15,80 +15,12 @@
 
 
     <!-- Full Page Image Background Carousel Header -->
-    <header>
+    <header class="fullscreen-bg">
+        <h2>Somos el resultado de la aplicación de tecnología de vanguardia a la gestión de residuos</h2>
         <div class="overlay"></div>
-{{-- 
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-
-        <!-- Wrapper for Slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-
-                <!-- /.container -->
-                <!-- Set the first background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('/img/green-city.svg');">
-                    <div class="overlay"></div>
-                     <div class="container">
-                        <div class="row">
-                            <div class="col-md-6 col-sm-12">
-                                <img src="/img/green-truck-logo-low.png" alt="Green Truck Logo">
-                            </div>
-                        </div>
-                        <!-- /.row -->
-                    </div><!-- /.container -->
-                </div >
-                <div class="carousel-caption">
-                    <h2>Somos el resultado de la aplicación de tecnología de vanguardia a la gestión de residuos</h2>
-                </div>
-            </div>
-            <div class="item">
-                <!-- Set the second background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('/img/green-road.svg');">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6 col-sm-12">
-                                <h1>Green Truck</h1>
-                                <h2>Nos centramos en el proceso de recogida, selección y trituración de todo tipo de residuos y restos de madera, para que posteriormente puedan ser reutilizados.</h2>
-                            </div>
-                        </div>
-                        <!-- /.row -->
-                    </div><!-- /.container -->
-                </div>
-                <div class="carousel-caption">
-                    <h2>Más de 25 años de experiencia en el sector nos avalan</h2>
-                </div>
-            </div>
-            <div class="item">
-                <!-- Set the third background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6 col-sm-12">
-                                <h1>Green Truck</h1>
-                                <h2>Nos centramos en el proceso de recogida, selección y trituración de todo tipo de residuos y restos de madera, para que posteriormente puedan ser reutilizados.</h2>
-                            </div>
-                        </div>
-                        <!-- /.row -->
-                    </div><!-- /.container -->
-                </div>
-                <div class="carousel-caption">
-                    <h2>Caption 3</h2>
-                </div>
-            </div>
-        </div>
-
-        <!-- Controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="icon-prev"></span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="icon-next"></span>
-        </a> --}}
+        <video loop muted autoplay class="fullscreen-bg__video">
+            <source src="/img/54105124.mp4" type="video/mp4">
+        </video>
     </header>
     <!-- Navigation -->
     <nav class="navbar navbar-default" role="navigation">
@@ -126,7 +58,6 @@
     </nav>
     <!-- Organizacion Section -->
     <section id="quienes-somos" class="bg-border-green">
-{{--         <img src="img/witch.svg" class="img-responsive img-centered witch" alt="Bruja"> --}}
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -161,21 +92,69 @@
             </div>
         </div>
     </section>
+    <aside id="quienes-somos-aside">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-8 col-md-offset-2">
+                    <h2><span class="light">Nuestra actividad se centra en el </span><br>proceso de recogida, selección y trituración de todo tipo de residuos y restos de madera<span class="light text-right"><br>para que posteriormente puedan ser reutilizados</span></h2>
+                </div>
+            </div>
+            {{-- <div class="row">
+                <div class="col-sm-4">
+                    <div class="panel panel-success">
+                        <div class="panel-heading">Misión</div>
+                        <div class="panel-body">
+                            <p>Generar un proceso líder en la retirada y transporte de residuos, altamente eficiente y al mismo tiempo, comprometido con el medio ambiente.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel panel-success">
+                        <div class="panel-heading">Misión</div>
+                        <div class="panel-body">
+                            <p>Generar un proceso líder en la retirada y transporte de residuos, altamente eficiente y al mismo tiempo, comprometido con el medio ambiente.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel panel-success">
+                        <div class="panel-heading">Visión</div>
+                        <div class="panel-body">
+                            <p>Ser la empresa española de referencia en la gestión de residuos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div> --}}
+        </div>
+    </aside>
     <!-- Organizacion Section -->
-    <section id="organizacion" class="bg-light-gray">
+    <section id="servicios" class="bg-light-gray bg-border-green">
 {{--         <img src="img/witch.svg" class="img-responsive img-centered witch" alt="Bruja"> --}}
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading animated-header">¿Quiénes somos?</h2>
-                    <h3 class="section-subheading text-muted">Somos el resultado de la aplicación de tecnología de vanguardia a la gestión de residuos, principalmente de la actividad terciaria.</h3>
+                    <h2 class="section-heading animated-header">Servicios</h2>
+                    <h3 class="section-subheading text-muted">Con el correcto tratamiento y reciclaje de residuos conseguimos minimizar la deforestación de los bosques, ahorrar agua y evitar la contaminación.</h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12 text-center">
-                  <p>Green Truck nace en el año 1986. Estamos comprometidos con el respeto al medio ambiente y  hemos creado un riguroso proceso de retirada y transporte de residuos con equipos humanos expertos.</p>
-                  <p>Nuestra actividad se centra en el proceso de recogida, selección y trituración de todo tipo de residuos y restos de madera, para que posteriormente puedan ser reutilizados.</p>
-                  <p>En Greentruck contamos con la maquinaria necesaria para la recogida de tipo de restos y materiales sobrantes de las empresas. Más de 25 años de experiencia en el sector nos avalan.</p>
+                <div class="col-sm-4">
+                    <div class="well well-lg">
+                        <p>Desmontaje de muebles de oficinas, locales comerciales o naves industriales. Retiramos todo tipo de mobiliario, estanterías, mamparas o estructuras metálicas y nos comprometemos a guardar absoluta confidencialidad.  </p>
+                        <span class="fa fa-leaf"></span>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="well well-lg">
+                        <p>Transporte y gestión de los residuos obtenidos en el vaciado de oficinas, locales comerciales o naves industriales. Trasladamos todos los residuos hasta los diferentes puntos de reciclaje. </p>
+                        <span class="fa fa-truck"></span>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="well well-lg">
+                        <p>Reciclaje de materiales. Clasificamos los residuos y nos responsabilizamos de su correcto tratamiento y reciclaje. Ofrecemos las máximas garantías de calidad para favorecer la sostenibilidad del medio ambiente.</p>
+                        <span class="fa fa-recycle"></span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -219,8 +198,14 @@
         </div>
     </section> 
     <script src="js/libs.js"></script>
+    <script src="http://pupunzi.com/mb.components/mb.YTPlayer/demo/inc/jquery.mb.YTPlayer.js"></script>
     <!-- Script to Activate the Carousel -->
     <script>
+$(document).ready(function () {
+
+    $(".player").mb_YTPlayer();
+
+});
         $('.carousel').carousel({
             pause: false,
             interval: 10000 //changes the speed
@@ -241,7 +226,6 @@
 
             var topOfWindow = $(window).scrollTop();
                 if (imagePos < topOfWindow+900) {
-                    console.log($(this));
                     $(this).addClass("fadeInDown animated");
                 }
             });
@@ -251,7 +235,6 @@
 
             var topOfWindow = $(window).scrollTop();
                 if (imagePos < topOfWindow+900) {
-                    console.log($(this));
                     $(this).addClass("fadeInUp animated");
                 }
             });
