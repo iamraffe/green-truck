@@ -175,10 +175,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-xl {
-  .button-variant(white; @brand-primary; @brand-primary);
+  .button-variant(white; @green-truck; @brand-primary);
   .heading-font;
   font-weight: 700;
-  border-radius: 3px;
+  border-radius: 0px;
   font-size: 18px;
   padding: 20px 40px;
 }
@@ -271,7 +271,7 @@ section {
       font-size: 40px;
       margin-top: 0;
       margin-bottom: 15px;
-      display: none;
+      // display: none;
       font-family: Lovelo, sans-serif;
       font-size: 40px;
       margin-bottom: 70px;
@@ -291,6 +291,11 @@ section {
     padding: 150px 0;
   }
 }
+
+// .animated{
+//   -vendor-animation-delay: 0.5s !important;
+//   animation-delay: 0.5s !important;
+// }
 
 // Services Section
 
@@ -385,14 +390,17 @@ SECTION - QUIENES SOMOS
 */
 section#quienes-somos{
   .animated-fa{
-    margin: 0 auto;
-    display: none;
+    
+    // display: none;
   }
 
   span.fa-stack{
+    margin: 0 auto;
+    display: block;
     margin-bottom: 25px;
 
     .fa{
+
       transition: all 0.25s ease;
     }
     .fa-circle{
@@ -418,18 +426,20 @@ section#quienes-somos{
 ASIDE - QUIENES SOMOS
 
 */
-aside{
+aside#quienes-somos-aside{
   background-image: url('/img/services_bg.jpg');
-  height: 85%;
+  height: 65%;
   width: 100%;
   background-size: cover;
   background-attachment: scroll;
+  display: flex;
+  align-items: center;
 
   h2{
     width: 100%;
     font-family: Lovelo, sans-serif;
-    font-size: 40px;
-    line-height: 70px;
+    font-size: 30px;
+    line-height: 50px;
     font-weight: normal;
     -webkit-font-smoothing: antialiased;
     color: white;
@@ -438,7 +448,7 @@ aside{
     span.light{
       font-family: 'Open Sans', sans-serif;
       font-weight: 300;
-      font-size: 28px;
+      font-size: 22px;
       display: block;
     }
   }
@@ -528,5 +538,70 @@ section#servicios{
 
   .fullscreen-bg__video {
     display: none;
+  }
+}
+
+footer{
+  color: white;
+  background-color: @green-truck-light;
+  border-top: 2px solid @green-truck;
+  margin:0;
+  padding: 50px 0;
+}
+
+/*
+
+SECTION - CONTACTO
+
+ */
+section#contacto{
+  .form-group {
+      margin-bottom: 25px;
+      input,
+      textarea {
+          padding: 20px;
+          border-radius: 0;
+      }
+      input.form-control {
+          height: auto;
+      }
+      textarea.form-control {
+          height: 256px;
+      }
+  }
+    ::-webkit-input-placeholder {
+       .heading-font;
+       font-weight: 700;
+       color: @placeholder-text;
+    }
+    :-moz-placeholder { /* Firefox 18- */
+       .heading-font;
+       font-weight: 700;
+       color: @placeholder-text;
+    }
+    ::-moz-placeholder {  /* Firefox 19+ */
+       .heading-font;
+       font-weight: 700;
+       color: @placeholder-text;
+    }
+    :-ms-input-placeholder {  
+       .heading-font;
+       font-weight: 700;
+       color: @placeholder-text;
+    }
+    .text-danger {
+        color: @brand-danger;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+}
+
+aside#map-canvas{
+  height: 400px;
+
+  iframe{
+    border:0;
+    width: 100%;
+    height: 400px;
   }
 }

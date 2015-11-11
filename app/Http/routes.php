@@ -12,3 +12,5 @@
 */
 
 Route::get('/', 'PagesController@index');
+
+Route::get('terms-and-conditions', 'PagesController@termsAndConditions');

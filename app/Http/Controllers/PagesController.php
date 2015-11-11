@@ -18,4 +18,8 @@ class PagesController extends Controller
         return view('pages.home');
     }
 
+    public function termsAndConditions()
+    {
+        return view('pages.terms-and-conditions');
+    }
 }
