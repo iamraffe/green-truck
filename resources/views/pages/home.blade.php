@@ -51,23 +51,23 @@
                     <h3 class="section-subheading text-muted">Somos el resultado de la aplicación de tecnología de vanguardia a la gestión de residuos, principalmente de la actividad terciaria.</h3>
                 </div>
             </div>
-            <div class="row wow fadeInUp" data-wow-delay="0.5s">
+            <div class="row" >
                 <div class="col-md-12 text-center">
-                  <div class="col-sm-4">
+                  <div class="col-sm-4 wow fadeInUp" data-wow-delay="0.5s">
                     <span class="fa-stack fa-4x fa-lg">
                       <i class="fa fa-circle fa-stack-2x"></i>
                       <i class="fa fa-globe fa-stack-1x fa-inverse"></i>
                     </span>
                     <p>Green Truck nace en el año 1986. Estamos comprometidos con el respeto al medio ambiente y  hemos creado un riguroso proceso de retirada y transporte de residuos con equipos humanos expertos.</p>
                   </div>
-                  <div class="col-sm-4">
+                  <div class="col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
                     <span class="fa-stack fa-4x fa-lg">
                       <i class="fa fa-circle fa-stack-2x"></i>
                       <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
                     </span>
                     <p>Nuestra actividad se centra en el proceso de recogida, selección y trituración de todo tipo de residuos y restos de madera, para que posteriormente puedan ser reutilizados.</p>
                   </div>
-                  <div class="col-sm-4">
+                  <div class="col-sm-4 wow fadeInUp" data-wow-delay="0.7s">
                     <span class="fa-stack fa-4x fa-lg">
                       <i class="fa fa-circle fa-stack-2x"></i>
                       <i class="fa fa-truck fa-stack-1x fa-inverse"></i>
@@ -97,19 +97,19 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4 wow fadeInUp">
+                <div class="col-sm-4 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="well well-lg">
                         <p>Desmontaje de muebles de oficinas, locales comerciales o naves industriales. Retiramos todo tipo de mobiliario, estanterías, mamparas o estructuras metálicas y nos comprometemos a guardar absoluta confidencialidad.  </p>
                         <span class="fa fa-leaf"></span>
                     </div>
                 </div>
-                <div class="col-sm-4 wow fadeInUp">
+                <div class="col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="well well-lg">
                         <p>Transporte y gestión de los residuos obtenidos en el vaciado de oficinas, locales comerciales o naves industriales. Trasladamos todos los residuos hasta los diferentes puntos de reciclaje. </p>
                         <span class="fa fa-truck"></span>
                     </div>
                 </div>
-                <div class="col-sm-4 wow fadeInUp">
+                <div class="col-sm-4 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="well well-lg">
                         <p>Reciclaje de materiales. Clasificamos los residuos y nos responsabilizamos de su correcto tratamiento y reciclaje. Ofrecemos las máximas garantías de calidad para favorecer la sostenibilidad del medio ambiente.</p>
                         <span class="fa fa-recycle"></span>
@@ -118,9 +118,32 @@
             </div>
         </div>
     </section>
+    <aside id="quienes-somos-aside">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-8 col-md-offset-2">
+                    <h2><span class="light wow slideInRight">Nuestra actividad se centra en el </span><br><span class="wow slideInUp">proceso de recogida, selección y trituración de todo tipo de residuos y restos de madera</span><span class="light text-right wow slideInLeft"><br>para que posteriormente puedan ser reutilizados</span></h2>
+                </div>
+            </div>
+        </div>
+    </aside>
     <!-- Experiencia Section -->
     <section id="experiencia" class="bg-light-gray">
         <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading wow fadeInDown">Experiencia</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div id="owl-demo">
+                  <div class="item"><img src="http://greentruck.es/images/client1.png" alt="Owl Image"></div>
+                  <div class="item"><img src="http://greentruck.es/images/client4.png" alt="Owl Image"></div>
+                  <div class="item"><img src="http://greentruck.es/images/client2.png" alt="Owl Image"></div>
+                  <div class="item"><img src="http://greentruck.es/images/client3.png" alt="Owl Image"></div>
+                </div>               
+            </div>
         </div>
     </section>
     <!-- Contacto Section -->
@@ -132,8 +155,8 @@
                     <h3 class="section-subheading text-muted"><span class="fa fa-phone"> 660208857</span><br><span class="fa fa-envelope"> perezcamacho@greentruck.es</span></h3>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
+            <div class="row wow fadeInUp" data-wow-delay="0.25s">
+                <div class="col-lg-12 wow bounce" data-wow-delay="1s">
                     <form name="sentMessage" class="contact" id="contactForm" novalidate>
                         <input type="hidden" id="url">
                         <div class="row">

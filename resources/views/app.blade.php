@@ -55,9 +55,24 @@
               offset:       0,          // default
               mobile:       true,       // default
               live:         true        // default
+              
             }
         )
         wow.init();
+        $(document).ready(function() {
+         
+          $("#owl-demo").owlCarousel({
+         
+              autoPlay: 5000, //Set AutoPlay to 3 seconds
+         
+              items : 4,
+              itemsDesktop : [1199,3],
+              itemsDesktopSmall : [979,3],
+              pagination: false,
+         
+          });
+         
+        });
 
     </script>
     <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->

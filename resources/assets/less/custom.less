@@ -1,4 +1,7 @@
 @import (inline) 'libs/animate.css';
+@import (inline) 'libs/owl/owl.carousel.css';
+@import (inline) 'libs/owl/owl.theme.css';
+@import (inline) 'libs/owl/owl.transitions.css';
 
 @font-face {
     font-family: 'Lovelo';
@@ -150,6 +153,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .bg-light-gray {
+  // border-top: 15px solid darken(@gray-lighter, 15%);
   background-color: @gray-lighter;
 }
 
@@ -604,4 +608,13 @@ aside#map-canvas{
     width: 100%;
     height: 400px;
   }
+}
+
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
 }
