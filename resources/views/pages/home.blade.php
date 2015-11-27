@@ -19,22 +19,22 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#"><h1 style="display: none;">Green Truck</h1><img src="/img/green-truck-logo-low.png" alt="Green Truck Logo"></a>
+                <a class="navbar-brand page-scroll" href="#"><h1 style="display: none;">Green Truck</h1><img src="/img/green-truck-logo-with-text.png" alt="Green Truck Logo" style="height: 45px;"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#quienes-somos">¿Quiénes somos?</a>
+                        <a class="page-scroll" href="#quienes-somos">¿Quiénes somos?</a>
                     </li>
                     <li>
-                        <a href="#servicios">Servicios</a>
+                        <a class="page-scroll" href="#servicios">Servicios</a>
                     </li>
                     <li>
-                        <a href="#experiencia">Experiencia</a>
+                        <a class="page-scroll" href="#experiencia">Experiencia</a>
                     </li>
                     <li>
-                        <a href="#contacto">Contacto</a>
+                        <a class="page-scroll" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -53,26 +53,33 @@
             </div>
             <div class="row" >
                 <div class="col-md-12 text-center">
-                  <div class="col-sm-4 wow fadeInUp" data-wow-delay="0.5s">
+                  <div class="col-sm-3 wow fadeInUp" data-wow-delay="0.5s">
                     <span class="fa-stack fa-4x fa-lg">
                       <i class="fa fa-circle fa-stack-2x"></i>
                       <i class="fa fa-globe fa-stack-1x fa-inverse"></i>
                     </span>
-                    <p>Green Truck nace en el año 1986. Estamos comprometidos con el respeto al medio ambiente y  hemos creado un riguroso proceso de retirada y transporte de residuos con equipos humanos expertos.</p>
+                    <p>Desde nuestro origen, en Green Truck estamos comprometidos con el respeto al medio ambiente y  hemos creado un riguroso proceso de retirada y transporte de residuos con equipos humanos expertos.</p>
                   </div>
-                  <div class="col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
+                  <div class="col-sm-3 wow fadeInUp" data-wow-delay="0.6s">
                     <span class="fa-stack fa-4x fa-lg">
                       <i class="fa fa-circle fa-stack-2x"></i>
                       <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
                     </span>
                     <p>Nuestra actividad se centra en el proceso de recogida, selección y trituración de todo tipo de residuos y restos de madera, para que posteriormente puedan ser reutilizados.</p>
                   </div>
-                  <div class="col-sm-4 wow fadeInUp" data-wow-delay="0.7s">
+                  <div class="col-sm-3 wow fadeInUp" data-wow-delay="0.7s">
+                    <span class="fa-stack fa-4x fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-trash fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <p>En Greentruck contamos con la maquinaria necesaria para la recogida de tipo de restos y materiales sobrantes de las empresas. Nuestra dilatada experiencia en el sector nos avalan.</p>
+                  </div>
+                    <div class="col-sm-3 wow fadeInUp" data-wow-delay="0.8s">
                     <span class="fa-stack fa-4x fa-lg">
                       <i class="fa fa-circle fa-stack-2x"></i>
                       <i class="fa fa-truck fa-stack-1x fa-inverse"></i>
                     </span>
-                    <p>En Greentruck contamos con la maquinaria necesaria para la recogida de tipo de restos y materiales sobrantes de las empresas. Más de 25 años de experiencia en el sector nos avalan.</p>
+                    <p>Traslado eficiente de oficinas y naves industriales. Nos ocupamos de la mudanza del mobiliario, el traslado de archivos y el movimiento de equipos informáticos.</p>
                   </div>
                 </div>
             </div>
@@ -82,7 +89,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-8 col-md-offset-2">
-                    <h2><span class="light wow slideInRight">Nuestra actividad se centra en el </span><br><span class="wow slideInUp">proceso de recogida, selección y trituración de todo tipo de residuos y restos de madera</span><span class="light text-right wow slideInLeft"><br>para que posteriormente puedan ser reutilizados</span></h2>
+                    <h2><span class="light wow slideInRight">Nuestra actividad se centra en el </span><br><span class="wow slideInUp">proceso de recogida, selección, traslado y mudanza o trituración de todo tipo de residuos y restos de madera</span><span class="light text-right wow slideInLeft"><br>para que posteriormente puedan ser reutilizados</span></h2>
                 </div>
             </div>
         </div>
@@ -118,11 +125,11 @@
             </div>
         </div>
     </section>
-    <aside id="quienes-somos-aside">
+    <aside id="servicios-aside">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-8 col-md-offset-2">
-                    <h2><span class="light wow slideInRight">Nuestra actividad se centra en el </span><br><span class="wow slideInUp">proceso de recogida, selección y trituración de todo tipo de residuos y restos de madera</span><span class="light text-right wow slideInLeft"><br>para que posteriormente puedan ser reutilizados</span></h2>
+                    <h2><span class="light wow slideInRight">Estamos comprometidos con el medio ambiente </span><br><span class="wow slideInUp">hemos creado un riguroso proceso de retirada y transporte de residuos</span><span class="light text-right wow slideInLeft"><br>con equipos humanos expertos</span></h2>
                 </div>
             </div>
         </div>

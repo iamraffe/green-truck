@@ -36,6 +36,7 @@
         </div>
     </footer>
     <script src="js/libs.js"></script>
+    <script src="js/all.js"></script>
     <!-- Script to Activate the Carousel -->
     <script>
         /* affix the navbar after scroll below header */

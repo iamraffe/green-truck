@@ -11221,86 +11221,6 @@ header .intro-text .intro-heading {
     -webkit-font-smoothing: antialiased;
   }
 }
-/*  
-
-SECTION - QUIENES SOMOS
-
-*/
-section#quienes-somos span.fa-stack {
-  margin: 0 auto;
-  display: block;
-  margin-bottom: 25px;
-}
-section#quienes-somos span.fa-stack .fa {
-  transition: all 0.25s ease;
-}
-section#quienes-somos span.fa-stack .fa-circle {
-  color: #98C328;
-}
-section#quienes-somos span.fa-stack:hover .fa {
-  color: #98C328;
-}
-section#quienes-somos span.fa-stack:hover .fa-circle {
-  color: #fff;
-  border: 1px solid #98C328;
-  border-radius: 50%;
-}
-/* 
-
-ASIDE - QUIENES SOMOS
-
-*/
-aside#quienes-somos-aside {
-  background-image: url('/img/services_bg.jpg');
-  height: 65%;
-  width: 100%;
-  background-size: cover;
-  background-attachment: scroll;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-aside#quienes-somos-aside h2 {
-  width: 100%;
-  font-family: Lovelo, sans-serif;
-  font-size: 30px;
-  line-height: 50px;
-  font-weight: normal;
-  -webkit-font-smoothing: antialiased;
-  color: white;
-  text-shadow: 1px 1px 7px #000000 !important;
-}
-aside#quienes-somos-aside h2 span.light {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  font-size: 22px;
-  display: block;
-}
-/*  
-
-SECTION - SERVICIOS 
-
-*/
-section#servicios .well {
-  position: relative;
-  overflow: hidden;
-  height: 325px;
-  border-top: 5px solid #A7C948;
-}
-section#servicios .well span {
-  color: #A7C948;
-  position: absolute;
-  border-radius: 50%;
-  border: 7px solid #98C328;
-  padding: 30px;
-  font-size: 8em;
-  opacity: 0.25;
-  top: 57.5%;
-  right: -25px;
-}
 .fullscreen-bg {
   top: 0;
   right: 0;
@@ -11358,13 +11278,163 @@ section#servicios .well span {
     display: none;
   }
 }
-footer {
-  color: white;
-  background-color: #A7C948;
-  border-top: 2px solid #98C328;
-  margin: 0;
-  padding: 50px 0;
+/*
+
+HEADER -> END
+
+ */
+/*  
+
+SECTION - QUIENES SOMOS
+
+*/
+section#quienes-somos span.fa-stack {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 25px;
 }
+section#quienes-somos span.fa-stack .fa {
+  transition: all 0.25s ease;
+}
+section#quienes-somos span.fa-stack .fa-circle {
+  color: #98C328;
+}
+section#quienes-somos span.fa-stack:hover .fa {
+  color: #98C328;
+}
+section#quienes-somos span.fa-stack:hover .fa-circle {
+  color: #fff;
+  border: 1px solid #98C328;
+  border-radius: 50%;
+}
+/*
+
+SECTION - QUIENES SOMOS -> END
+
+ */
+/* 
+
+ASIDE - QUIENES SOMOS
+
+*/
+aside#quienes-somos-aside {
+  background-image: url('/img/services_bg.jpg');
+  height: 65%;
+  width: 100%;
+  background-size: cover;
+  background-attachment: scroll;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+aside#quienes-somos-aside h2 {
+  width: 100%;
+  font-family: Lovelo, sans-serif;
+  font-size: 30px;
+  line-height: 50px;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  color: white;
+  text-shadow: 1px 1px 7px #000000 !important;
+}
+aside#quienes-somos-aside h2 span.light {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+  display: block;
+}
+/*
+
+ASIDE - QUIENES SOMOS -> END
+
+ */
+/*  
+
+SECTION - SERVICIOS 
+
+*/
+section#servicios .well {
+  position: relative;
+  overflow: hidden;
+  height: 325px;
+  border-top: 5px solid #A7C948;
+}
+section#servicios .well span {
+  color: #A7C948;
+  position: absolute;
+  border-radius: 50%;
+  border: 7px solid #98C328;
+  padding: 30px;
+  font-size: 8em;
+  opacity: 0.25;
+  top: 57.5%;
+  right: -25px;
+}
+/*
+
+SECTION - SERVICIOS -> END
+
+*/
+/* 
+
+ASIDE - SERVICIOS
+
+*/
+aside#servicios-aside {
+  background-image: url('/img/green-energy-blur.jpg');
+  height: 65%;
+  width: 100%;
+  background-size: cover;
+  background-attachment: scroll;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+aside#servicios-aside h2 {
+  width: 100%;
+  font-family: Lovelo, sans-serif;
+  font-size: 30px;
+  line-height: 50px;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  color: white;
+  text-shadow: 1px 1px 7px #000000 !important;
+}
+aside#servicios-aside h2 span.light {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+  display: block;
+}
+/*
+
+ASIDE - SERVICIOS -> END
+
+*/
+/*
+
+SECTION - EXPERIENCIA
+
+*/
+section#experiencia #owl-demo .item {
+  margin: 3px;
+}
+section#experiencia #owl-demo .item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/*
+
+SECTION - EXPERIENCIA -> END
+
+*/
 /*
 
 SECTION - CONTACTO
@@ -11423,13 +11493,22 @@ aside#map-canvas iframe {
   width: 100%;
   height: 400px;
 }
-#owl-demo .item {
-  margin: 3px;
+/*
+
+FOOTER
+
+ */
+footer {
+  color: white;
+  background-color: #A7C948;
+  border-top: 2px solid #98C328;
+  margin: 0;
+  padding: 50px 0;
 }
-#owl-demo .item img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
+/*
+
+FOOTER -> END
+
+*/
 
 /*# sourceMappingURL=all.css.map */

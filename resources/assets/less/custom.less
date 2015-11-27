@@ -386,105 +386,6 @@ header {
     }
 }
 
-
-/*  
-
-SECTION - QUIENES SOMOS
-
-*/
-section#quienes-somos{
-  .animated-fa{
-    
-    // display: none;
-  }
-
-  span.fa-stack{
-    margin: 0 auto;
-    display: block;
-    margin-bottom: 25px;
-
-    .fa{
-
-      transition: all 0.25s ease;
-    }
-    .fa-circle{
-      color: @green-truck;
-      // transition: border 0.25s ease;
-    }
-
-    &:hover{
-      .fa{
-        color: @green-truck;
-      }
-      .fa-circle{
-        color: #fff;
-        border: 1px solid @green-truck;
-        border-radius: 50%;
-      }
-    }
-  }
-}
-
-/* 
-
-ASIDE - QUIENES SOMOS
-
-*/
-aside#quienes-somos-aside{
-  background-image: url('/img/services_bg.jpg');
-  height: 65%;
-  width: 100%;
-  background-size: cover;
-  background-attachment: scroll;
-  display: flex;
-  align-items: center;
-
-  h2{
-    width: 100%;
-    font-family: Lovelo, sans-serif;
-    font-size: 30px;
-    line-height: 50px;
-    font-weight: normal;
-    -webkit-font-smoothing: antialiased;
-    color: white;
-    text-shadow: 1px 1px 7px #000000 !important;
-
-    span.light{
-      font-family: 'Open Sans', sans-serif;
-      font-weight: 300;
-      font-size: 22px;
-      display: block;
-    }
-  }
-}
-
-/*  
-
-SECTION - SERVICIOS 
-
-*/
-section#servicios{
-  .well{
-    position: relative;
-    overflow: hidden;
-    height: 325px;
-    border-top: 5px solid @green-truck-light;
-
-    span{
-      color: @green-truck-light;
-      position: absolute;
-      border-radius: 50%;
-      border: 7px solid @green-truck;
-      padding: 30px;
-      font-size: 8em;
-      opacity: 0.25;
-      top: 57.5%;
-      right: -25px;
-
-    }
-  }
-}
-
 .fullscreen-bg {
   // position: fixed;
   top: 0;
@@ -545,13 +446,186 @@ section#servicios{
   }
 }
 
-footer{
-  color: white;
-  background-color: @green-truck-light;
-  border-top: 2px solid @green-truck;
-  margin:0;
-  padding: 50px 0;
+/*
+
+HEADER -> END
+
+ */
+
+/*  
+
+SECTION - QUIENES SOMOS
+
+*/
+section#quienes-somos{
+  .animated-fa{
+    
+    // display: none;
+  }
+
+  span.fa-stack{
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 25px;
+
+    .fa{
+
+      transition: all 0.25s ease;
+    }
+    .fa-circle{
+      color: @green-truck;
+      // transition: border 0.25s ease;
+    }
+
+    &:hover{
+      .fa{
+        color: @green-truck;
+      }
+      .fa-circle{
+        color: #fff;
+        border: 1px solid @green-truck;
+        border-radius: 50%;
+      }
+    }
+  }
 }
+
+/*
+
+SECTION - QUIENES SOMOS -> END
+
+ */
+
+/* 
+
+ASIDE - QUIENES SOMOS
+
+*/
+aside#quienes-somos-aside{
+  background-image: url('/img/services_bg.jpg');
+  height: 65%;
+  width: 100%;
+  background-size: cover;
+  background-attachment: scroll;
+  display: flex;
+  align-items: center;
+
+  h2{
+    width: 100%;
+    font-family: Lovelo, sans-serif;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    color: white;
+    text-shadow: 1px 1px 7px #000000 !important;
+
+    span.light{
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
+      font-size: 22px;
+      display: block;
+    }
+  }
+}
+
+/*
+
+ASIDE - QUIENES SOMOS -> END
+
+ */
+
+/*  
+
+SECTION - SERVICIOS 
+
+*/
+section#servicios{
+  .well{
+    position: relative;
+    overflow: hidden;
+    height: 325px;
+    border-top: 5px solid @green-truck-light;
+
+    span{
+      color: @green-truck-light;
+      position: absolute;
+      border-radius: 50%;
+      border: 7px solid @green-truck;
+      padding: 30px;
+      font-size: 8em;
+      opacity: 0.25;
+      top: 57.5%;
+      right: -25px;
+
+    }
+  }
+}
+
+/*
+
+SECTION - SERVICIOS -> END
+
+*/
+
+/* 
+
+ASIDE - SERVICIOS
+
+*/
+aside#servicios-aside{
+  background-image: url('/img/green-energy-blur.jpg');
+  height: 65%;
+  width: 100%;
+  background-size: cover;
+  background-attachment: scroll;
+  display: flex;
+  align-items: center;
+
+  h2{
+    width: 100%;
+    font-family: Lovelo, sans-serif;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    color: white;
+    text-shadow: 1px 1px 7px #000000 !important;
+
+    span.light{
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
+      font-size: 22px;
+      display: block;
+    }
+  }
+}
+/*
+
+ASIDE - SERVICIOS -> END
+
+*/
+
+/*
+
+SECTION - EXPERIENCIA
+
+*/
+section#experiencia{
+  #owl-demo .item{
+    margin: 3px;
+  }
+  #owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+/*
+
+SECTION - EXPERIENCIA -> END
+
+*/
 
 /*
 
@@ -610,11 +684,20 @@ aside#map-canvas{
   }
 }
 
-#owl-demo .item{
-  margin: 3px;
+/*
+
+FOOTER
+
+ */
+footer{
+  color: white;
+  background-color: @green-truck-light;
+  border-top: 2px solid @green-truck;
+  margin:0;
+  padding: 50px 0;
 }
-#owl-demo .item img{
-  display: block;
-  width: 100%;
-  height: auto;
-}
+/*
+
+FOOTER -> END
+
+*/
