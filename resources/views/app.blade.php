@@ -40,7 +40,7 @@
     <!-- Script to Activate the Carousel -->
     <script>
         /* affix the navbar after scroll below header */
-        $('nav.navbar').affix({
+        $('nav.navbar.hidden-xs').affix({
               offset: {
                 top: $('header').height()-$('nav.navbar').height()
               }

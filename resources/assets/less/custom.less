@@ -202,6 +202,7 @@ h1, h2, h3, h4, h5, h6 {
   // border-top: 2px solid darken(@green-truck, 5%);
   .navbar-brand {
     color: @brand-primary;
+    padding: 10px;
     .script-font;
         &:hover,
         &:focus,
@@ -328,7 +329,7 @@ HEADER
 header {
     position: relative;
     height: 100%;
-    background-image: url('/img/header-bg.jpg');
+    // background-image: url('/img/header-bg.jpg');
     background-repeat: none;
     background-attachment: scroll;
     background-position: center center;
@@ -410,6 +411,10 @@ header {
     position: relative;
     z-index: 9;
 
+    @media(max-width: 768px){
+      font-size: 15px;
+    }
+
   }
 }
 
@@ -438,7 +443,8 @@ header {
 
 @media (max-width: 767px) {
   .fullscreen-bg {
-    background: url('../img/videoframe.jpg') center center / cover no-repeat;
+    // background: url('../img/videoframe.jpg') center center / cover no-repeat;
+    background-color: lighten(@green-truck, 15%);
   }
 
   .fullscreen-bg__video {
@@ -527,6 +533,18 @@ aside#quienes-somos-aside{
       display: block;
     }
   }
+
+  @media(max-width: 768px){
+    height: 100%;
+
+    h2{
+      font-size: 15px;
+      line-height: 35px;
+      span.light{
+        font-size: 12px;
+      }
+    }
+  }
 }
 
 /*
@@ -597,6 +615,18 @@ aside#servicios-aside{
       font-weight: 300;
       font-size: 22px;
       display: block;
+    }
+  }
+
+  @media(max-width: 768px){
+    height: 100%;
+
+    h2{
+      font-size: 15px;
+      line-height: 35px;
+      span.light{
+        font-size: 12px;
+      }
     }
   }
 }

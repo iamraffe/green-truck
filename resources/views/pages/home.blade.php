@@ -9,7 +9,42 @@
         </video>
     </header>
     <!-- Navigation -->
-    <nav class="navbar navbar-default" role="navigation">
+    <nav class="navbar navbar-default visible-xs navbar-fixed-bottom" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#"><h1 style="display: none;">Green Truck</h1><img src="/img/green-truck-logo-with-text.png" alt="Green Truck Logo" style="height: 45px;"></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a class="page-scroll" href="#quienes-somos">¿Quiénes somos?</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#servicios">Servicios</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#experiencia">Experiencia</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default hidden-xs" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -65,7 +100,7 @@
                       <i class="fa fa-circle fa-stack-2x"></i>
                       <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
                     </span>
-                    <p>Nuestra actividad se centra en el proceso de recogida, selección y trituración de todo tipo de residuos y restos de madera, para que posteriormente puedan ser reutilizados.</p>
+                    <p>Nuestra actividad se centra en el proceso de recogida y desmontaje, selección y trituración de todo tipo de residuos, para que posteriormente puedan ser reutilizados.</p>
                   </div>
                   <div class="col-sm-3 wow fadeInUp" data-wow-delay="0.7s">
                     <span class="fa-stack fa-4x fa-lg">
@@ -79,7 +114,7 @@
                       <i class="fa fa-circle fa-stack-2x"></i>
                       <i class="fa fa-truck fa-stack-1x fa-inverse"></i>
                     </span>
-                    <p>Traslado eficiente de oficinas y naves industriales. Nos ocupamos de la mudanza del mobiliario, el traslado de archivos y el movimiento de equipos informáticos.</p>
+                    <p>Traslado eficiente de oficinas y naves industriales realizado por personal experto. Nos ocupamos de la mudanza del mobiliario, el traslado de archivos y el movimiento de equipos informáticos.</p>
                   </div>
                 </div>
             </div>
@@ -89,7 +124,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-8 col-md-offset-2">
-                    <h2><span class="light wow slideInRight">Nuestra actividad se centra en el </span><br><span class="wow slideInUp">proceso de recogida, selección, traslado y mudanza o trituración de todo tipo de residuos y restos de madera</span><span class="light text-right wow slideInLeft"><br>para que posteriormente puedan ser reutilizados</span></h2>
+                    <h2><span class="light wow slideInRight">Nuestra actividad se centra en el </span><br><span class="wow slideInUp">proceso de recogida, selección, traslado y mudanza o trituración de todo tipo de residuos</span><span class="light text-right wow slideInLeft"><br>para que posteriormente puedan ser reutilizados</span></h2>
                 </div>
             </div>
         </div>
@@ -106,7 +141,7 @@
             <div class="row">
                 <div class="col-sm-4 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="well well-lg">
-                        <p>Desmontaje de muebles de oficinas, locales comerciales o naves industriales. Retiramos todo tipo de mobiliario, estanterías, mamparas o estructuras metálicas y nos comprometemos a guardar absoluta confidencialidad.  </p>
+                        <p>Desmontaje de muebles de oficinas, locales comerciales o naves industriales realizado por personal experto. Retiramos todo tipo de mobiliario, estanterías, mamparas o estructuras metálicas y nos comprometemos a guardar absoluta confidencialidad.  </p>
                         <span class="fa fa-leaf"></span>
                     </div>
                 </div>
@@ -145,10 +180,10 @@
             </div>
             <div class="row">
                 <div id="owl-demo">
-                  <div class="item"><img src="http://greentruck.es/images/client1.png" alt="Owl Image"></div>
-                  <div class="item"><img src="http://greentruck.es/images/client4.png" alt="Owl Image"></div>
-                  <div class="item"><img src="http://greentruck.es/images/client2.png" alt="Owl Image"></div>
-                  <div class="item"><img src="http://greentruck.es/images/client3.png" alt="Owl Image"></div>
+                  <div class="item"><img src="/img/deco-sevilla.png" alt="Deco Sevilla"></div>
+                  <div class="item"><img src="/img/distalle.png" alt="Distalle"></div>
+                  <div class="item"><img src="/img/diputacion-cadiz.png" alt="Diputación Cadiz"></div>
+                  <div class="item"><img src="/img/tepima.png" alt="Tepima"></div>
                 </div>               
             </div>
         </div>

@@ -11089,6 +11089,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-default .navbar-brand {
   color: #000;
+  padding: 10px;
   font-family: 'Ubuntu', sans-serif;
 }
 .navbar-default .navbar-brand:hover,
@@ -11165,7 +11166,6 @@ HEADER
 header {
   position: relative;
   height: 100%;
-  background-image: url('/img/header-bg.jpg');
   background-repeat: none;
   background-attachment: scroll;
   background-position: center center;
@@ -11250,6 +11250,11 @@ header .intro-text .intro-heading {
   position: relative;
   z-index: 9;
 }
+@media (max-width: 768px) {
+  .fullscreen-bg h2 {
+    font-size: 15px;
+  }
+}
 .fullscreen-bg__video {
   position: absolute;
   top: 0;
@@ -11272,7 +11277,7 @@ header .intro-text .intro-heading {
 }
 @media (max-width: 767px) {
   .fullscreen-bg {
-    background: url('../img/videoframe.jpg') center center / cover no-repeat;
+    background-color: #b9dd5a;
   }
   .fullscreen-bg__video {
     display: none;
@@ -11346,6 +11351,18 @@ aside#quienes-somos-aside h2 span.light {
   font-size: 22px;
   display: block;
 }
+@media (max-width: 768px) {
+  aside#quienes-somos-aside {
+    height: 100%;
+  }
+  aside#quienes-somos-aside h2 {
+    font-size: 15px;
+    line-height: 35px;
+  }
+  aside#quienes-somos-aside h2 span.light {
+    font-size: 12px;
+  }
+}
 /*
 
 ASIDE - QUIENES SOMOS -> END
@@ -11411,6 +11428,18 @@ aside#servicios-aside h2 span.light {
   font-weight: 300;
   font-size: 22px;
   display: block;
+}
+@media (max-width: 768px) {
+  aside#servicios-aside {
+    height: 100%;
+  }
+  aside#servicios-aside h2 {
+    font-size: 15px;
+    line-height: 35px;
+  }
+  aside#servicios-aside h2 span.light {
+    font-size: 12px;
+  }
 }
 /*
 
